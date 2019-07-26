@@ -1,0 +1,73 @@
+a {
+    text-decoration: none;
+    margin-right: 25px;
+    color: white;
+    font-family: 'Allerta Stencil', sans-serif;
+    padding: 20px;
+}
+
+a:hover {
+    border-style: inset;
+    border-radius: 5px;
+    border-width: 2px;
+    color: rgb(0, 162, 255);
+    border-color: rgb(0, 162, 255);
+}
+
+.nav-bar nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(27, 27, 27);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-bar nav .logo {
+    justify-content: flex-start;
+    margin-right: 600px;
+    color: white
+}
+
+.nav-bar nav .buttons {
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+.row{
+    padding: 100px;
+    margin: 50px;
+}
+
+
+
+.mystory{
+    color: whitesmoke;
+}
+
+.home{
+    color: whitesmoke;
+}
+
+.school{
+    color: whitesmoke;
+
+}
+
+.culture{
+    color: whitesmoke;
+}
+
+.myMusic{
+    color: whitesmoke;
+}
+
+.myCloset{
+    color: whitesmoke;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
