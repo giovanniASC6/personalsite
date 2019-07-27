@@ -10,8 +10,9 @@ a:hover {
     border-style: inset;
     border-radius: 5px;
     border-width: 2px;
-    color: rgb(0, 162, 255);
-    border-color: rgb(0, 162, 255);
+    /* color: rgb(0, 162, 255);
+    border-color: rgb(0, 162, 255); */
+    opacity: 0.7;
 }
 
 .nav-bar nav{
@@ -21,15 +22,19 @@ a:hover {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1000;
 }
 
 .nav-bar nav .logo {
     justify-content: flex-start;
-    margin-right: 600px;
-    color: white
+    margin-right: 20%;
+    color: white;
+    /* font-family: 'Jacques Francois Shadow', cursive; */
+    font-family: 'Permanent Marker', cursive;
 }
 
 .nav-bar nav .buttons {
+    display: flex;
     margin-top: 25px;
     justify-content: space-between;
 }
@@ -37,6 +42,7 @@ a:hover {
 .row{
     padding: 100px;
     margin: 50px;
+    font-family: 'Indie Flower', cursive;
 }
 
 
@@ -50,7 +56,7 @@ a:hover {
 }
 
 .school{
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
 
 }
 
