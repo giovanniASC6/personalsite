@@ -1,0 +1,41 @@
+a {
+    text-decoration: none;
+    margin-right: 25px;
+    color: white;
+    font-family: 'Allerta Stencil', sans-serif;
+    padding: 20px;
+}
+
+a:hover {
+    /* border-style: inset;
+    border-radius: 5px;
+    border-width: 2px; */
+    /* color: rgb(0, 162, 255);
+    border-color: rgb(0, 162, 255); */
+    opacity: 0.7;
+    color: orange;
+}
+
+.nav-bar nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(27, 27, 27);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-bar nav .logo {
+    justify-content: flex-start;
+    margin-right: 20%;
+    color: white;
+    /* font-family: 'Jacques Francois Shadow', cursive; */
+    font-family: 'Permanent Marker', cursive;
+}
+
+.nav-bar nav .buttons {
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}

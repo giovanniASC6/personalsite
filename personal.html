@@ -4,104 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <style>
-
-        html{
-            scroll-behavior: smooth; 
-        }
-
-        img{
-            border-radius: 50%;
-            height: 300px;
-            margin-top: 30px;
-            filter: blur(.5px);
-            -webkit-filter: blur(.5px);
-            
-        }
-
-        .story .mystory{
-        position: absolute;
-        z-index: 999;
-        margin: 0 auto;
-        left: 0;
-        right: 50%;        
-        text-align: center;
-        top: 45%;
-        }
-
-        .newyork .home{
-        position: absolute;
-        z-index: 999;
-        margin: 0 auto;
-        left: 10%;
-        right: 10%;
-        text-align: center;
-        top: 45%;
-        }
-
-        .highschool .school{
-        position: absolute;
-        z-index: 999;
-        margin: 0 auto;
-        left: 50%;
-        right: 0;
-        text-align: center;
-        top: 45%;
-        }
-
-        .lifestyle .culture{
-        position: absolute;
-        z-index: 999;
-        margin: 0 auto;
-        left: 21%;
-        right: 55%;
-        bottom: 20%;
-        top: 101%;
-        }
-
-        .music .myMusic{
-        position: absolute;
-        z-index: 999;
-        margin: 0 auto;
-        left: 47%;
-        right: 50%;
-        bottom: 20%;
-        top: 98%;
-        }
-
-        .closet .myCloset{
-        position: absolute;
-        z-index: 999;
-        margin: 0 auto;
-        left: 74%;
-        right: 50%;
-        bottom: 5%;
-        top: 100.5%;
-        }
-
-        .buttons-linkedin{
-            background:#007bb5;
-            color: white;
-        }
-
-        .buttons-instagram{
-            background: #125688;
-            color: white;
-        }
-
-        .buttons-snapchat-ghost{
-            background: #fffc00;
-            color: white;
-            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-        }
-
-    </style>
     <link rel="stylesheet" href="/lib/personal.css">
     <link href="https://fonts.googleapis.com/css?family=Jacques+Francois+Shadow&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="personal.js" type="text/javascript" defer></script>
+    <script src="lib/personal.js" type="text/javascript" defer></script>
     <title>personalsite</title>
 </head>
 <body>
@@ -126,12 +34,16 @@
         <div class="row">
         
             <div class="story">                
-                        <img src="https://images2.minutemediacdn.com/image/upload/c_crop,h_3152,w_5616,x_0,y_580/f_auto,q_auto,w_1100/v1555005360/shape/mentalfloss/502944-istock-492597439.jpg" alt="puzzle piece" width="300px">
-                        <div class="mystory">
-                            <h1>My Story</h1>
-                        </div>
+                        <img src="https://images2.minutemediacdn.com/image/upload/c_crop,h_3152,w_5616,x_0,y_580/f_auto,q_auto,w_1100/v1555005360/shape/mentalfloss/502944-istock-492597439.jpg" alt="puzzle piece" width="300px" usemap="#storymap">
+                       <span class="mystory">
+                        <h1>My Story</h1>
+                       </span> 
+                            
+                        
             </div>
-            
+            <map name="storymap">
+                <area shape="rect" coords="0, 0, 255, 315" href="sitePages/myStory.html" alt="My story page">
+            </map>
                     <div class="newyork">
                         <img src="https://wallpapercave.com/wp/wp3594888.jpg" alt="nyc skyline" width="300px">
                         <div class="home">

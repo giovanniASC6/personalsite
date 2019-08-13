@@ -8,12 +8,13 @@ a {
 }
 
 a:hover {
-    border-style: inset;
+    /* border-style: inset;
     border-radius: 5px;
-    border-width: 2px;
+    border-width: 2px; */
     /* color: rgb(0, 162, 255);
     border-color: rgb(0, 162, 255); */
     opacity: 0.7;
+    color: orange;
 }
 
 .nav-bar nav{
@@ -77,4 +78,93 @@ a:hover {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+}
+
+html{
+    scroll-behavior: smooth; 
+}
+
+img{
+    border-radius: 50%;
+    height: 300px;
+    margin-top: 30px;
+    filter: blur(.5px);
+    -webkit-filter: blur(.5px);
+    
+}
+
+.story .mystory{
+position: absolute;
+z-index: 999;
+margin: 0 auto;
+left: 0;
+right: 55%;        
+text-align: center;
+top: 40%;
+}
+
+.newyork .home{
+position: absolute;
+z-index: 999;
+margin: 0 auto;
+left: 10%;
+right: 10%;
+text-align: center;
+top: 45%;
+}
+
+.highschool .school{
+position: absolute;
+z-index: 999;
+margin: 0 auto;
+left: 50%;
+right: 0;
+text-align: center;
+top: 45%;
+}
+
+.lifestyle .culture{
+position: absolute;
+z-index: 999;
+margin: 0 auto;
+left: 21%;
+right: 55%;
+bottom: 20%;
+top: 101%;
+}
+
+.music .myMusic{
+position: absolute;
+z-index: 999;
+margin: 0 auto;
+left: 47%;
+right: 50%;
+bottom: 20%;
+top: 98%;
+}
+
+.closet .myCloset{
+position: absolute;
+z-index: 999;
+margin: 0 auto;
+left: 74%;
+right: 50%;
+bottom: 5%;
+top: 100.5%;
+}
+
+.buttons-linkedin{
+    background:#007bb5;
+    color: white;
+}
+
+.buttons-instagram{
+    background: #125688;
+    color: white;
+}
+
+.buttons-snapchat-ghost{
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
